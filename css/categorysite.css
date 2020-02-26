@@ -1,0 +1,16 @@
+.card-img {
+	height: 400px;
+}
+
+.info {
+	margin: 26px 0;
+	background-color: rgba(256, 256, 256, 0.5);
+}
+
+.icon-text-container {
+	font-size: 12px;
+}
+
+button {
+	margin-top: 40px;
+}
