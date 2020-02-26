@@ -6,12 +6,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
     <title>Home</title>
-
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="container-fluid p-0">
-	    <header class="row pl-5 m-0 col-12 bg-white position-fixed" style="z-index: 99;">
-	        <a class="col-5 col-sm-2 col-md-2 col-lg-2 col-xl-1 mt-3 m-auto pl-4" href="index.html"><img class="col-12 my-2 w-75 ml-5" src="images/logo_img_tw.png"></a>
+    <div class="container-fluid p-0" style="font-family: 'Playfair Display' ;">
+	    <header class="row m-0 col-12 bg-white position-fixed" style="z-index: 99; padding-left: 5.8rem;">
+	        <a class=" mt-3 m-auto pl-4" href="index.html"><img class=" my-2 ml-5" style="width: 2.5em; height: 2.5em;" src="images/logo_img_tw.png"></a>
 	        <div class="d-flex justify-content-end align-items-center mt-1  mb-n3 " style="z-index: 99;">
 	            <div class="mr-2">
 					<div class="d-flex justify-content-around">	
@@ -52,12 +52,12 @@
 				</div>
 			</div>
 	    </header>
-		<nav class="navbar navbar-expand-lg navbar-light position-fixed w-100" style="background-color: #ececec; top: 60px; z-index: 99;">
+		<nav class="navbar navbar-expand-lg navbar-light position-fixed w-100" style="background-color: #ececec; top: 56px; z-index: 99;">
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 		    	<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-		  		<div class="navbar-nav justify-content-around w-100">
+		  		<div class="navbar-nav justify-content-around align-items-center w-100">
 			    	<div><a class="nav-item nav-link active text-dark" href="index.html">Hem <span class="sr-only">(current)</span></a></div>
 			    	<div><a class="nav-item nav-link active text-dark" href="categorysite.html">Matkassar <span class="sr-only">(current)</span></a></div>
 			    	<div><a class="nav-item nav-link active text-dark" href="#">Om oss <span class="sr-only">(current)</span></a></div>
@@ -67,7 +67,7 @@
 		</nav>
 	
 		<div class="d-flex flex-column justify-content-center align-items-center">
-			<div class="" style="margin-top: 116px;">
+			<div class="" style="margin-top: 112px;">
 				<img class="img-fluid " src="images/startpage.jpg">
 			</div>
 			<div class="position-absolute col-6" >
@@ -77,29 +77,29 @@
 		<div class="text-white py-5 px-4 text-center" style="background-color: #20452E;">
 				<p class="h5"><b>Vi brinner för närodlat och ekologiskt</b>, därför levererar vi säsongsbaserad mat och sprider glädje genom våra matkassar.</p>
 		</div>
-		<div>
-			<div class="d-flex justify-content-center align-items-center text-white mx-1 mt-1 ">
+		<div class="row px-md-0">
+			<div class="d-flex justify-content-center align-items-center text-white mx-1 mx-md-0 mt-1 col-md-6 px-1">
 				<img class="w-100 rounded" src="images/morning-startpage.jpg" alt="morgonkasse">
 				<h1 class="position-absolute align-self-start mt-5">Morgonkassen</h1>
-				<p class="position-absolute h5 p-5 mt-4">Starta dagen på bästa vis. En frukostkasse fylld med närodlade råvaror som är ekologiska.</p>
+				<p class="position-absolute h5 mt-4" style="padding: 0 100px;">Starta dagen på bästa vis. En frukostkasse fylld med närodlade råvaror som är ekologiska.</p>
 				<button class="position-absolute align-self-end btn btn-success border-0 mb-5 w-25 p-2" style="background-color: #13693A;">VÄLJ</button>
 			</div>
-			<div class="d-flex justify-content-center align-items-center text-white mx-1 mt-1">
+			<div class="d-flex justify-content-center align-items-center text-white mx-1 mx-md-0 mt-1 col-md-6 px-1">
 				<img class="w-100 rounded" src="images/vego-startpage.jpg" alt="morgonkasse">
 				<h1 class="position-absolute align-self-start mt-5">Vegokassen</h1>
-				<p class="position-absolute h5 p-5 mt-4">En matkasse för dig som är vegetarian eller vill äta mer vegetariskt. Stor variation med många olika smaker.</p>
+				<p class="position-absolute h5 mt-4" style="padding: 0 150px;">En matkasse för dig som är vegetarian eller vill äta mer vegetariskt. Stor variation med många olika smaker.</p>
 				<button class="position-absolute align-self-end btn btn-success border-0 mb-5 w-25 p-2" style="background-color: #13693A;">VÄLJ</button>
 			</div>
-			<div class="d-flex justify-content-center align-items-center text-white mx-1 mt-1">
+			<div class="d-flex justify-content-center align-items-center text-white mx-1 mx-md-0 mt-1 col-md-6 mb-md-1 px-1">
 				<img class="w-100 rounded" src="images/flexi-startpage.jpg" alt="morgonkasse">
 				<h1 class="position-absolute align-self-start mt-5">Flexikassen</h1>
-				<p class="position-absolute h5 p-5 mt-4">För dig som vill äta vegetariskt vissa dagar och som andra dagar vill äta fågel och fisk.</p>
+				<p class="position-absolute h5 mt-4" style="padding: 0 150px;">För dig som vill äta vegetariskt vissa dagar och som andra dagar vill äta fågel och fisk.</p>
 				<button class="position-absolute align-self-end btn btn-success border-0 mb-5 w-25 p-2" style="background-color: #13693A;">VÄLJ</button>
 			</div>
-			<div class="d-flex justify-content-center align-items-center text-white mx-1 my-1">
+			<div class="d-flex justify-content-center align-items-center text-white mx-1 mx-md-0 my-1 col-md-6 px-1">
 				<img class="w-100 rounded" src="images/glutenfree-startpage.jpg" alt="morgonkasse">
 				<h1 class="position-absolute align-self-start mt-5">Glutenfria kassen</h1>
-				<p class="position-absolute h5 p-5 mt-4">Glutenfria matkassen är för dig som vill äta ännu grönare och undvika gluten i din kost</p>
+				<p class="position-absolute h5 mt-4" style="padding: 0 150px;">Glutenfria matkassen är för dig som vill äta ännu grönare och undvika gluten i din kost</p>
 				<button class="position-absolute align-self-end btn btn-success border-0 mb-5 w-25 p-2" style="background-color: #13693A;">VÄLJ</button>
 			</div>
 		</div>
